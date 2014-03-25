@@ -3,7 +3,7 @@ $(document).ready(function(){
 		var element = $(".button-" + i);
 		element.click(function(){
 			var elem = $(this).attr('class');
-			elem = elem.substring(7,elem.length);
+			elem = elem.substring(7);
 			alert(elem);
 		});
 	}
